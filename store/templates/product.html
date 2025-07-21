@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ product.title }}</h2>
+<p><strong>Price:</strong> ₹{{ product.price }}</p>
+<p>{{ product.description }}</p>
+<a href="/add-to-cart/101/">Add to Cart</a>
+{% endblock %}
